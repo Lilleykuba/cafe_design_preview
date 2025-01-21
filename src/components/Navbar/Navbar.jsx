@@ -16,13 +16,9 @@ const Navbar = () => {
           <div data-aos="fade-down" data-aos-once="true">
             <a
               href="#"
-              className="font-bold text-2xl sm:text-3xl flex items-center justify-center gap-2 tracking-wider font-cursive"
+              className="font-bold text-xl sm:text-2xl flex items-center justify-center gap-2 tracking-wide font-cursive text-nowrap"
             >
-              <img
-                src={Logo}
-                alt="logo"
-                className="w-14 mix-blend-soft-light"
-              />
+              <img src={Logo} alt="logo" className="w-12" />
               Vaše Kavárna
             </a>
           </div>
@@ -30,7 +26,7 @@ const Navbar = () => {
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-delay="300"
-            className="flex justify-between items-center gap-4 w-full"
+            className="flex justify-end items-center gap-4 w-full"
           >
             <ul className="hidden sm:flex items-center justify-center gap-4">
               {Menus.map((data, index) => (
