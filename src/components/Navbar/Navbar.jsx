@@ -18,7 +18,7 @@ const Navbar = () => {
               href="#"
               className="font-bold text-xl sm:text-2xl flex items-center justify-center gap-2 tracking-wide font-cursive text-nowrap"
             >
-              <img src={Logo} alt="logo" className="w-12" />
+              <img src={Logo} alt="logo" className="w-12 pl-4 sm:pl-0" />
               Vaše Kavárna
             </a>
           </div>
